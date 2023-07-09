@@ -122,6 +122,8 @@ def station_stats(df):
         print('-'*40)
     except KeyError as ke:
         print('key is not available', ke)
+    except IndexError as ie:
+        print('array index range out of bound: ', ie)
     except Exception as e:
         print(e)
 
