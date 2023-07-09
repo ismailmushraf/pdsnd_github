@@ -1,17 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+Anaylysis of Bicycle Renting data from Washington, Chicago, New York.
 
 ### Date created
-Include the date you created this project and README file.
+    09/06/2023
 
 ### Project Title
-Replace the Project Title
+    City Bicycle renting anaylysis
 
 ### Description
-Describe what your project is about and what it does
+    Analysing three bicycle renting datasets from three major cities.
 
 ### Files used
-Include the files used
+
+    new_york.csv 
+    chicago.csv 
+    washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
