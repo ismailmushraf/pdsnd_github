@@ -8,6 +8,7 @@ Anaylysis of Bicycle Renting data from Washington, Chicago, New York.
 
 ### Description
     Analysing three bicycle renting datasets from three major cities.
+    We've Used statistical measurements like Mean, Medium, Mode, Standard Deviation, Variance.
 
 ### Files used
 
