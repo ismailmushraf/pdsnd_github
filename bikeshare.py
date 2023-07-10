@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to analyze, and returns filtered data.
 
     Returns:
         (str) city - name of the city to analyze
@@ -122,6 +122,8 @@ def station_stats(df):
         print('-'*40)
     except KeyError as ke:
         print('key is not available', ke)
+    except IndexError as ie:
+        print('array index range out of bound: ', ie)
     except Exception as e:
         print(e)
 
@@ -147,7 +149,7 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
-    """Displays statistics on bikeshare users."""
+    """Displays statistics on bikeshare users based on Gender."""
     try:
         print('\nCalculating User Stats...\n')
         start_time = time.time()
